@@ -2,8 +2,10 @@ THE UNPROCESSED DATASET FEATURING THE ON TIME AIRLINE PERFORMANCE REPORT BY BTS 
 
 Useless data was removed. So were irrelevant and redundant columns as well.
 
-The file "jan_2025_sanitized.csv" is the file after pre-processing and the one that has been used for predictions.
+The file "jan_2025_sanitized.csv" at the link: https://github.com/pmandalegend1/Flight_delay_prediction_without_over-relying_on_meteorological_data/blob/main/jan_2025_sanitized.csv  is the file after pre-processing and the one that has been used for predictions.
 The dataset was pre-processed, anaylized and visualized, aaccording to the MLDLC steps in order. 
+
+The file: https://github.com/pmandalegend1/Flight_delay_prediction_without_over-relying_on_meteorological_data/blob/main/Jan_2025_data_cleaning_and_pre-processing_with_analysis.ipynb is the notebook where preprocessing and analysis was conducted.
 
 Research Project Name:-  Flight_delay_prediction_without_over-relying_on_meteorological_data
 
