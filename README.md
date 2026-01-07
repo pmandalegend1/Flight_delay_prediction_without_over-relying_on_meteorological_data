@@ -1,5 +1,8 @@
 THE UNPROCESSED DATASET FEATURING THE ON TIME AIRLINE PERFORMANCE REPORT BY BTS USA CAN BE DOWNLOADED AT THE FOLLOWING LINK:- https://transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_1.zip
 
+Useless data was removed. So were irrelevant and redundant columns as well.
+
+The file "jan_2025_sanitized.csv" is the file after pre-processing and the one that has been used for predictions.
 The dataset was pre-processed, anaylized and visualized, aaccording to the MLDLC steps in order. 
 
 Research Project Name:-  Flight_delay_prediction_without_over-relying_on_meteorological_data
