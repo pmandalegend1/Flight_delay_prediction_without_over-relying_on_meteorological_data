@@ -1,5 +1,8 @@
 THE UNPROCESSED DATASET FEATURING THE ON TIME AIRLINE PERFORMANCE REPORT IS OBTAINED FROM BTS USA CAN BE DOWNLOADED AT THE FOLLOWING LINK:- https://transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_2025_1.zip
 
+NOTE : - The Version 3 as of now,is the latest version of the project, with many bugs and indiscrepancies fixed. It can be found at the following link. Kindly take a look !!
+https://github.com/pmandalegend1/Flight_delay_prediction_without_over-relying_on_meteorological_data/blob/main/VERSION%203.ipynb  Additionally, it has also been updated with proof for non linear factors affecting flight delays clearly overthrowing the use of linear baseline models that incorrectly predict delays. 
+
 After thorough analysis of the dataset, all "useless data" was removed. So were irrelevant and redundant columns.
 The reasons for the same are as follows:
 1. There were leakage variables present that doesn't let the machine learning algorithms learn properly and might have led to memorisation of flights that caused delays and flag accordingly.
@@ -20,6 +23,9 @@ While atmospheric conditions offer a convenient, visible scapegoat for schedule 
 
 The discrepancy between current industry standards and the world’s most punctual carriers suggests that high-tier On-Time Performance (OTP) is not a result of favourable weather, but of superior modelling of internal delay catalysts. Had the industry historically prioritized the modelling of high-contribution systemic features over exogenous weather data, operational efficiency would be significantly more robust. The model proposed in this study deliberately pivots away from these transient environmental factors to capture the latent, high-impact features of the operational ecosystem. By isolating and analysing the non-weather drivers that dictate the majority of delay variances, this framework provides a high-fidelity diagnostic tool for the issues that genuinely govern airline performance.
 
-This is the Version 2 of the project with 2 removed features and a better performance in terms of roc auc and brier scores indicating better research and moe accurate delay prediction focusing on all the non - meteorological factors involved.
+This is the Version 2 of the project with 2 removed features and a better performance in terms of roc auc and brier scores indicating better research and more accurate delay prediction focusing on all the non - meteorological factors involved.
 
-Version 1 will be uploaded only after work progresses in Version 2.
+Another notebook that shows the results of the dataset comparison (before and after preprocessing) as been added to the project.
+It can be found at the link: - https://github.com/pmandalegend1/Flight_delay_prediction_without_over-relying_on_meteorological_data/blob/main/Initial%20vs%20Final%20Dataset%20stat%20.ipynb
+
+Version 1 will be uploaded only after work progresses in Version 2 until final draft of final Version is prepared.
